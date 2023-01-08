@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    padding-top: 30px;
+}
+
+/* Navigation Bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    padding-top: 30px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    padding: 15px 20px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Banner Style */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 130px 0px 200px;
+}
+.banner-subtitle{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    margin-bottom: 10px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.btn-secondary{
+    background-color: white;
+    padding: 15px 35px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+/* Main Section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    margin: 130px 0;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.about-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    padding-bottom: 30px;
+}
+.about-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    padding-bottom: 30px;
+}
+
+/* Personal Information */
+.intro{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.personal-info{
+    margin-right: 80px;
+    text-align: center;
+}
