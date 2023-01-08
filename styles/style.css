@@ -12,6 +12,10 @@
 }
 
 /* Navigation Bar */
+.khan-shaheb{
+    font-weight: 800;
+    font-size: 45px;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -106,9 +110,120 @@ main{
 .intro{
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    
 }
 .personal-info{
     margin-right: 80px;
     text-align: center;
+}
+
+/* My Skills */
+.resume{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.my-skill{
+    margin-bottom: 130px;
+}
+.skill-set{
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 0 200px;
+}
+.skill-container{
+    display: flex;
+    gap: 25px;
+}
+.skills{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.skill-description{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* Resume Section */
+.degree{
+    margin: 30px 0;
+}
+.degree-title{
+    margin-bottom: 10px;
+}
+.university{
+    margin-bottom: 20px;
+}
+.degree-description{
+    padding-bottom: 30px;
+    
+}
+
+.resume-btn{
+text-align: center;
+}
+
+/* Footer */
+footer{
+    background: #FFF8F3;
+    margin-top: 100px;
+}
+.footer-container{
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+.connect-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.connect-des{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.icon{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+/* Form Section */
+.massage-form input{
+    display: block;
+}
+.massage-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.massage-form input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+}
+input{
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+}
+textarea{
+    width: 100%;
+    padding-left: 10px;
 }
